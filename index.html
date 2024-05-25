@@ -13,7 +13,7 @@
 
       //Leafletの初期化
       var map = L.map('mapcontainer', { zoomControl: false });
-      map.setView([40., 140.], 6);
+      map.setView([40., 140.], 5);
       //Leafletの地図タイルのレイヤーに、国土地理院の地理院タイルの地図データのサーバーを指定
       L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
         attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>出典:地理院タイル　https://maps.gsi.go.jp/development/ichiran.html</a>"
